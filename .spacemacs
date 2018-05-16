@@ -41,7 +41,8 @@ values."
      markdown
      python
      helm
-     auto-completion
+     (auto-completion :variables
+                     auto-completion-enable-snippets-in-popup t)
      ;; better-defaults
      emacs-lisp
      git
